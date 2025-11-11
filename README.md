@@ -1,6 +1,20 @@
 # TA-PRAKTIKUM-JARINGAN-KOMPUTER
 Repository ini dibuat sebagai bukti pengumpulan untuk perngerjaan TA pada mata kuliah Praktikum Jaringan Komputer
 
+# ❗TA Percobaan  3: VLAN❗
+<img width="572" height="320" alt="image" src="https://github.com/user-attachments/assets/3ea6b2d2-4673-40d7-a0d2-849f330214c0" />
+doc.add_heading('🧩 Menambah PC Baru')
+doc.add_paragraph("Tujuan: Menambahkan PC baru ke VLAN 10 (Operations) agar dapat berkomunikasi dengan PC lain di VLAN yang sama.")
+steps_pc = [
+    "1. Tambahkan PC baru (mis. PC-C) ke workspace dan hubungkan ke Switch S1 menggunakan kabel straight-through (contoh port: Fa0/11).",
+    "2. Masuk ke CLI Switch S1 dan konfigurasikan port:\n"
+    "   enable\n   configure terminal\n   interface fa0/11\n   switchport mode access\n   switchport access vlan 10\n   end",
+    "3. Atur IP Address di PC-C (Desktop → IP Configuration):\n"
+    "   IP Address: 192.168.10.5\n   Subnet Mask: 255.255.255.0",
+    "4. Verifikasi VLAN di Switch:\n   show vlan brief",
+    "5. Tes koneksi dari PC-C ke PC lain di VLAN 10:\n   ping 192.168.10.3"
+]
+
 # ❗TA Percobaan  2: Build a Switch and Router Network❗
 <img width="734" height="202" alt="image" src="https://github.com/user-attachments/assets/e097eec9-26a2-4236-8b5c-fb00d9560fec" />
 
