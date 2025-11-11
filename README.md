@@ -11,7 +11,7 @@ Repository ini dibuat sebagai bukti pengumpulan untuk perngerjaan TA pada mata k
     "   IP Address: 192.168.10.5\n   Subnet Mask: 255.255.255.0",
     "4. Verifikasi VLAN di Switch:\n   show vlan brief",
     "5. Tes koneksi dari PC-C ke PC lain di VLAN 10:\n   ping 192.168.10.3"
-* Tautan Video YouTube TA Percobaan 3:
+* Tautan Video YouTube TA Percobaan 3: https://youtu.be/ZB0ViQE5ZTo
     
 
 
